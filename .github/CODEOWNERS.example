@@ -1,0 +1,4 @@
+# Replace the placeholder handle and rename this file to .github/CODEOWNERS
+# to enable automatic review requests on pull requests.
+
+* @brz1409 @martinrach @anatol-github-handle

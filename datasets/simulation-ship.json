@@ -1,0 +1,37 @@
+{
+  "name": "simulation-ship",
+  "version": "v1",
+  "package_role": "maintainer-package",
+  "source_title": "Synthetic Photogrammetric Dataset for Two-Media 3D Reconstruction: Shipwreck & Terrain",
+  "source_doi": "10.48323/G3CAA-ER166",
+  "source_record": "https://researchdata.uibk.ac.at/records/g3caa-er166",
+  "source_authors": [
+    "Frederik Schulte",
+    "Markus Brezovsky",
+    "Anatol Gunthner",
+    "Boris Jutzi",
+    "Gottfried Mandlburger",
+    "Lukas Winiwarter"
+  ],
+  "release_tag": "dataset-v1",
+  "asset_name": "bathyfacto-simulation-ship-v1.tar.zst",
+  "url": "https://github.com/brz1409/bathyfacto/releases/download/dataset-v1/bathyfacto-simulation-ship-v1.tar.zst",
+  "sha256": "9ed4625132be3a7a06e657a7eb9f62b355d244b3793a9b44265b773644df0bfb",
+  "archive_root": "simulation-ship/",
+  "target_dir": "data/simulation-ship",
+  "expected_files": [
+    "data.npz",
+    "train.npz",
+    "val.npz",
+    "reference_mesh.ply",
+    "DATASET_PROVENANCE.json"
+  ],
+  "expected_counts": {
+    "images/*.png": 130,
+    "medium_masks/*.png": 130
+  },
+  "renames": {
+    "reference_mesh_ein_boden.ply": "reference_mesh.ply"
+  },
+  "semantic_changes": false
+}

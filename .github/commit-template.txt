@@ -1,0 +1,13 @@
+# Format:
+# <type>(optional-scope): <short imperative summary>
+#
+# Allowed types:
+# feat, fix, refactor, test, docs, ci, chore
+#
+# Examples:
+# feat(bathy): add refraction-aware color loss
+# fix(process-data): cast point error to float
+# ci: skip unrelated process-data tests on bathy branches
+#
+# Optional details below the summary line.
+#
