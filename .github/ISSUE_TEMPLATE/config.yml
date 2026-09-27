@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions about the method
+    url: https://arxiv.org/abs/2605.10174
+    about: The paper describes the model, the data and the evaluation.

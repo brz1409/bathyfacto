@@ -1,0 +1,40 @@
+name: Bug report
+description: Something does not install, train, evaluate or export as documented.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you ran, what you expected and what you got instead.
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Command and full error output
+      description: The exact command and the complete traceback or log excerpt.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Output of the command below.
+      value: |
+        python -c "import sys, torch, nerfstudio, bathyfacto; print(sys.version); print(torch.__version__, torch.version.cuda); print(nerfstudio.__version__)"
+        nvidia-smi --query-gpu=name,driver_version --format=csv
+      render: shell
+    validations:
+      required: true
+  - type: dropdown
+    id: data
+    attributes:
+      label: Data
+      options:
+        - Published simulation-ship dataset
+        - My own dataset built with bathyfacto-build-dataset
+        - Other
+    validations:
+      required: true
