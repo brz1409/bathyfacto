@@ -8,8 +8,8 @@
 <h3 align="center">Refraction-Aware Two-Media Neural Radiance Fields for Bathymetry</h3>
 
 <p align="center">
-  <a href="https://doi.org/PAPER_DOI"><img src="https://img.shields.io/badge/Paper-ISPRS%20Open%20J.%202026-1B8FA6.svg" alt="Paper"></a>
-  <a href="https://doi.org/ZENODO_DOI"><img src="https://img.shields.io/badge/Code%20DOI-Zenodo-1682D4.svg" alt="Code DOI"></a>
+  <img src="https://img.shields.io/badge/Paper-ISPRS%20Open%20J.%202026-1B8FA6.svg" alt="Paper">
+  <a href="https://doi.org/10.5281/zenodo.22986400"><img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22986400-1682D4.svg" alt="Code DOI"></a>
   <a href="https://doi.org/10.48323/G3CAA-ER166"><img src="https://img.shields.io/badge/Dataset-10.48323%2FG3CAA--ER166-A9844A.svg" alt="Dataset"></a>
   <a href="https://docs.nerf.studio/"><img src="https://img.shields.io/badge/Nerfstudio-plugin-4B5C63.svg" alt="Nerfstudio plugin"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License: Apache 2.0"></a>
