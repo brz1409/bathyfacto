@@ -1,0 +1,7 @@
+BathyFacto
+Copyright 2026 Markus Brezovsky, TU Wien
+
+This package extends Nerfstudio (https://github.com/nerfstudio-project/nerfstudio),
+Copyright 2022 the Regents of the University of California, Nerfstudio Team and
+contributors, licensed under the Apache License 2.0. Several files are derived from
+Nerfstudio source code and keep its copyright notice.

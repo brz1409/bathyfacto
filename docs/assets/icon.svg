@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.0 64.0" width="64" height="64" role="img" aria-label="BathyFacto">
+  <title>BathyFacto</title>
+  <defs>
+    <clipPath id="bc"><rect width="64" height="64" rx="14"/></clipPath>
+    <linearGradient id="bs" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F1F8FA"/><stop offset="1" stop-color="#DCEEF3"/></linearGradient>
+    <linearGradient id="bw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#45B8CC"/><stop offset="1" stop-color="#0B3F5E"/></linearGradient>
+    <linearGradient id="bf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CDA864"/><stop offset="1" stop-color="#A9844A"/></linearGradient>
+  </defs>
+  <g clip-path="url(#bc)">
+    <rect width="64" height="27" fill="url(#bs)"/>
+    <rect y="27" width="64" height="37" fill="url(#bw)"/>
+    <path d="M0.00 51.63 L0.50 51.84 L1.00 52.05 L1.50 52.24 L2.00 52.43 L2.50 52.60 L3.00 52.75 L3.50 52.88 L4.00 52.99 L4.50 53.07 L5.00 53.14 L5.50 53.17 L6.00 53.19 L6.50 53.18 L7.00 53.15 L7.50 53.09 L8.00 53.01 L8.50 52.92 L9.00 52.81 L9.50 52.69 L10.00 52.55 L10.50 52.41 L11.00 52.26 L11.50 52.11 L12.00 51.96 L12.50 51.82 L13.00 51.68 L13.50 51.54 L14.00 51.42 L14.50 51.31 L15.00 51.21 L15.50 51.12 L16.00 51.05 L16.50 50.99 L17.00 50.95 L17.50 50.92 L18.00 50.90 L18.50 50.89 L19.00 50.89 L19.50 50.89 L20.00 50.90 L20.50 50.92 L21.00 50.93 L21.50 50.93 L22.00 50.94 L22.50 50.93 L23.00 50.92 L23.50 50.89 L24.00 50.85 L24.50 50.79 L25.00 50.72 L25.50 50.63 L26.00 50.53 L26.50 50.41 L27.00 50.28 L27.50 50.13 L28.00 49.97 L28.50 49.79 L29.00 49.61 L29.50 49.43 L30.00 49.24 L30.50 49.04 L31.00 48.86 L31.50 48.67 L32.00 48.50 L32.50 48.33 L33.00 48.18 L33.50 48.05 L34.00 47.94 L34.50 47.84 L35.00 47.77 L35.50 47.73 L36.00 47.70 L36.50 47.71 L37.00 47.73 L37.50 47.78 L38.00 47.86 L38.50 47.95 L39.00 48.07 L39.50 48.20 L40.00 48.35 L40.50 48.52 L41.00 48.69 L41.50 48.87 L42.00 49.05 L42.50 49.24 L43.00 49.42 L43.50 49.60 L44.00 49.78 L44.50 49.94 L45.00 50.09 L45.50 50.23 L46.00 50.35 L46.50 50.46 L47.00 50.55 L47.50 50.63 L48.00 50.69 L48.50 50.74 L49.00 50.77 L49.50 50.79 L50.00 50.80 L50.50 50.80 L51.00 50.80 L51.50 50.79 L52.00 50.78 L52.50 50.77 L53.00 50.76 L53.50 50.76 L54.00 50.77 L54.50 50.79 L55.00 50.82 L55.50 50.86 L56.00 50.92 L56.50 50.98 L57.00 51.07 L57.50 51.17 L58.00 51.28 L58.50 51.40 L59.00 51.54 L59.50 51.68 L60.00 51.83 L60.50 51.98 L61.00 52.14 L61.50 52.30 L62.00 52.45 L62.50 52.60 L63.00 52.73 L63.50 52.86 L64.00 52.97 L64 64 L0 64 Z" fill="url(#bf)"/>
+    <line x1="0" y1="27" x2="64" y2="27" stroke="#FFFFFF" stroke-opacity=".75" stroke-width="1.2"/>
+    <line x1="32" y1="7" x2="16.37" y2="27" stroke="#14222B" stroke-width="1.7" stroke-linecap="round"/>
+    <line x1="16.37" y1="27" x2="2.97" y2="52.74" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round"/>
+    <circle cx="2.97" cy="52.74" r="1.61" fill="#FFFFFF"/>
+    <line x1="32" y1="7" x2="25.11" y2="27" stroke="#14222B" stroke-width="1.7" stroke-linecap="round"/>
+    <line x1="25.11" y1="27" x2="19.10" y2="50.89" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round"/>
+    <circle cx="19.10" cy="50.89" r="1.61" fill="#FFFFFF"/>
+    <line x1="32" y1="7" x2="32.00" y2="27" stroke="#14222B" stroke-width="1.7" stroke-linecap="round"/>
+    <line x1="32.00" y1="27" x2="32.00" y2="48.50" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round"/>
+    <circle cx="32.00" cy="48.50" r="1.61" fill="#FFFFFF"/>
+    <line x1="32" y1="7" x2="38.89" y2="27" stroke="#14222B" stroke-width="1.7" stroke-linecap="round"/>
+    <line x1="38.89" y1="27" x2="44.68" y2="50.00" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round"/>
+    <circle cx="44.68" cy="50.00" r="1.61" fill="#FFFFFF"/>
+    <line x1="32" y1="7" x2="47.63" y2="27" stroke="#14222B" stroke-width="1.7" stroke-linecap="round"/>
+    <line x1="47.63" y1="27" x2="60.67" y2="52.05" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round"/>
+    <circle cx="60.67" cy="52.05" r="1.61" fill="#FFFFFF"/>
+    <circle cx="32" cy="7" r="3.4" fill="#14222B"/>
+  </g>
+  <rect x=".5" y=".5" width="63" height="63" rx="13.5" fill="none" stroke="#14222B" stroke-opacity=".10"/>
+</svg>

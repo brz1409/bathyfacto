@@ -1,0 +1,12 @@
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+/data/
+/downloads/
+/outputs/
+wandb/
+*.ckpt
+exports/
+.coverage
+htmlcov/

@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "BathyFacto"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/brz1409/bathyfacto"
+version: "1.0.0"
+authors:
+  - family-names: Brezovsky
+    given-names: Markus
+    orcid: "https://orcid.org/0009-0002-3620-1974"
+    affiliation: "Department of Geodesy and Geoinformation, TU Wien"
+preferred-citation:
+  type: article
+  title: "BathyFacto: Refraction-Aware Two-Media Neural Radiance Fields for Bathymetry"
+  journal: "ISPRS Open Journal of Photogrammetry and Remote Sensing"
+  year: 2026
+  status: in-press
+  authors:
+    - family-names: Brezovsky
+      given-names: Markus
+      orcid: "https://orcid.org/0009-0002-3620-1974"
+    - family-names: Günthner
+      given-names: Anatol
+    - family-names: Schulte
+      given-names: Frederik
+    - family-names: Winiwarter
+      given-names: Lukas
+    - family-names: Jutzi
+      given-names: Boris
+    - family-names: Mandlburger
+      given-names: Gottfried

@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bathyfacto"
+version = "1.0.0"
+description = "BathyFacto: refraction-aware two-media neural radiance fields for bathymetry (Nerfstudio plugin)"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+dependencies = [
+    "nerfstudio @ git+https://github.com/nerfstudio-project/nerfstudio@50e0e3c70c775e89333256213363badbf074f29d",
+    "open3d>=0.16.0",
+    "opencv-python-headless",
+    "matplotlib>=3.6.0",
+    "zstandard>=0.22",
+    # torch==2.2.2's official cu118 wheel is compiled against NumPy's 1.x C API;
+    # NumPy 2.x breaks every torch.from_numpy()/.numpy() call at runtime
+    # (RuntimeError: Numpy is not available). Neither this project nor the
+    # pinned nerfstudio commit constrains numpy, so an unpinned resolve grabs
+    # NumPy 2.x today.
+    "numpy<2",
+    # nerfstudio's pil_to_numpy() (pinned commit) calls PIL's raw encoder the
+    # way Pillow accepted through 12.1.x; Pillow 12.2.0 changed that C
+    # encoder's signature (TypeError: function takes exactly 2 arguments (1
+    # given)). nerfstudio's own metadata only declares Pillow>=10.3.0.
+    "pillow<12.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "pyright"]
+
+[project.entry-points."nerfstudio.method_configs"]
+bathyfacto = "bathyfacto.bathyfacto_config:BathyFactoMethod"
+nerfacto-bathy-compare = "bathyfacto.bathyfacto_config:NerfactoBathyCompareMethod"
+
+[project.entry-points."nerfstudio.dataparser_configs"]
+bathynerf = "bathyfacto.bathyfacto_dataparser_plugin:BathyNerfDataParser"
+
+[project.scripts]
+bathyfacto-export = "bathyfacto.export:entrypoint"
+bathyfacto-build-dataset = "bathyfacto.build_dataset:entrypoint"
+
+[tool.setuptools.packages.find]
+include = ["bathyfacto*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+ignore = ["E501"]
+
+[tool.pyright]
+include = ["bathyfacto"]
+reportMissingImports = "warning"
