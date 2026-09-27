@@ -5,6 +5,7 @@ type: software
 license: Apache-2.0
 repository-code: "https://github.com/brz1409/bathyfacto"
 version: "1.0.0"
+doi: "10.5281/zenodo.22986400"
 authors:
   - family-names: Brezovsky
     given-names: Markus
@@ -16,6 +17,11 @@ preferred-citation:
   journal: "ISPRS Open Journal of Photogrammetry and Remote Sensing"
   year: 2026
   status: in-press
+  url: "https://arxiv.org/abs/2605.10174"
+  identifiers:
+    - type: other
+      value: "arXiv:2605.10174"
+      description: "arXiv preprint"
   authors:
     - family-names: Brezovsky
       given-names: Markus
