@@ -9,6 +9,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Paper-ISPRS%20Open%20J.%202026-1B8FA6.svg" alt="Paper">
+  <a href="https://arxiv.org/abs/2605.10174"><img src="https://img.shields.io/badge/arXiv-2605.10174-B31B1B.svg" alt="arXiv"></a>
   <a href="https://doi.org/10.5281/zenodo.22986400"><img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22986400-1682D4.svg" alt="Code DOI"></a>
   <a href="https://doi.org/10.48323/G3CAA-ER166"><img src="https://img.shields.io/badge/Dataset-10.48323%2FG3CAA--ER166-A9844A.svg" alt="Dataset"></a>
   <a href="https://docs.nerf.studio/"><img src="https://img.shields.io/badge/Nerfstudio-plugin-4B5C63.svg" alt="Nerfstudio plugin"></a>
@@ -110,7 +111,9 @@ release is checked against.
              Winiwarter, Lukas and Jutzi, Boris and Mandlburger, Gottfried},
   journal = {ISPRS Open Journal of Photogrammetry and Remote Sensing},
   year    = {2026},
-  note    = {in press}
+  note    = {in press},
+  eprint  = {2605.10174},
+  archivePrefix = {arXiv}
 }
 ```
 
